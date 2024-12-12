@@ -1,0 +1,342 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+}
+/*--Google doc Rio account for code --*/
+/*-- It is 3.7+ each--*/
+/*--- Book 0-27 ---*/
+.Title_and_Description {
+  height: 500vh;
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+  animation: backgroundSlideshow 1500s linear infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  padding: 50px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+/*--- !?!?!DO NOT TOUCH!?!?! ---*/
+@keyframes backgroundSlideshow {
+  0% {
+    background: url("https://jujutsukaisen.jp/images/top_r/mv_re_new.jpg")
+      no-repeat center center/cover;
+  }
+  3.7% {
+    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Jujutsu_kaisen.jpg/220px-Jujutsu_kaisen.jpg")
+      no-repeat center center/cover;
+  }
+  7.4% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088816722/1200/9784088816722.jpg")
+      no-repeat center center/cover;
+  }
+  11.1% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088815169/1200/9784088815169.jpg")
+      no-repeat center center/cover;
+  }
+  14.8% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088816081/1200/9784088816081.jpg")
+      no-repeat center center/cover;
+  }
+  18.5% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088816661/1200/9784088816661.jpg")
+      no-repeat center center/cover;
+  }
+  22.2% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088817569/1200/9784088817569.jpg")
+      no-repeat center center/cover;
+  }
+  25.9% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088818283/1200/9784088818283.jpg")
+      no-repeat center center/cover;
+  }
+  29.6% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088818764/1200/9784088818764.jpg")
+      no-repeat center center/cover;
+  }
+  33.3% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088820767/1200/9784088820767.jpg")
+      no-repeat center center/cover;
+  }
+  37% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088821689/1200/9784088821689.jpg")
+      no-repeat center center/cover;
+  }
+  40.7% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088822181/1200/9784088822181.jpg")
+      no-repeat center center/cover;
+  }
+  44.4% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088822747/1200/9784088822747.jpg")
+      no-repeat center center/cover;
+  }
+  48.1% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088822969/1200/9784088822969.jpg")
+      no-repeat center center/cover;
+  }
+  51.8% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088823812/1200/9784088823812.jpg")
+      no-repeat center center/cover;
+  }
+  55.5% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088824291/1200/9784088824291.jpg")
+      no-repeat center center/cover;
+  }
+  59.2% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088825342/1200/9784088825342.jpg")
+      no-repeat center center/cover;
+  }
+  62.9% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088825816/1200/9784088825816.jpg")
+      no-repeat center center/cover;
+  }
+  66.6% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088826882/1200/9784088826882.jpg")
+      no-repeat center center/cover;
+  }
+  70.3% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088827360/1200/9784088827360.jpg")
+      no-repeat center center/cover;
+  }
+  74% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088828480/1200/9784088828480.jpg")
+      no-repeat center center/cover;
+  }
+  77.7% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/08X10000000020243200/1200/08X10000000020243200.jpg")
+      no-repeat center center/cover;
+  }
+  81.4% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088832012/1200/9784088832012.jpg")
+      no-repeat center center/cover;
+  }
+  85.1% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088833118/1200/9784088833118.jpg")
+      no-repeat center center/cover;
+  }
+  88.8% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088834344/1200/9784088834344.jpg")
+      no-repeat center center/cover;
+  }
+  92.5% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088836287/1200/9784088836287.jpg")
+      no-repeat center center/cover;
+  }
+  96.2% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088836706/1200/9784088836706.jpg")
+      no-repeat center center/cover;
+  }
+  100% {
+    background: url("https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088837994/1200/9784088837994.jpg")
+      no-repeat center center/cover;
+  }
+}
+/*--For Jujutsu Kaisen--*/
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 10rem;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: black;
+  text-shadow: -5px -5px 0 #dcd284, 5px -5px 0 #dcd284, -5px 5px 0 #dcd284,
+    5px 5px 0 #dcd284, 0 0 50px rgba(220, 210, 132, 100);
+}
+/*For Characters */
+h2 {
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: black;
+  text-shadow: -5px -5px 0 #dcd284, 5px -5px 0 #dcd284, -5px 5px 0 #dcd284,
+    5px 5px 0 #dcd284, 0 0 50px rgba(220, 210, 132, 100);
+}
+/*For Images */
+h3 {
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: black;
+  text-shadow: -5px -5px 0 #dcd284, 5px -5px 0 #dcd284, -5px 5px 0 #dcd284,
+    5px 5px 0 #dcd284, 0 0 50px rgba(220, 210, 132, 100);
+}
+/*For Youtude videos*/
+h4 {
+  font-family: "Merriweather", cursive;
+  font-size: 4rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+  text-shadow: -5px -5px 0 #e3291b, 5px -5px 0 #e3291b, -5px 5px 0 #e3291b,
+    5px 5px 0 #e3291b, 0 0 50px rgba(227, 41, 27, 100);
+}
+/* Description styling */
+p {
+  font-family: "Comfortaa", cursive;
+  font-size: 2rem;
+  color: yellow;
+  max-width: 800px;
+  line-height: 1.5;
+  background-color: rgba(1, 1, 1, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 3px 3px 3px rgba(31, 20, 49, 0.5);
+}
+/* Scroll charaters gallery */
+.Characters_pics {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+  max-width: 100%;
+  background: rgba(31, 20, 49, 0.5);
+  border-radius: 15px;
+  align-items: center;
+  scrollbar-width: none;
+  margin-top: 20px;
+}
+.Characters_pics::-webkit-scrollbar {
+  display: none;
+}
+/* styling */
+.Characters_pics img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
+  object-fit: cover;
+  border: 3px solid transparent;
+  box-shadow: 0 0 15px rgba(120, 87, 158, 0.2);
+}
+.Characters_pics img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  box-shadow: 0 0 20px rgba(120, 87, 158, 0.8);
+  border-color: rgba(120, 87, 158, 0.5);
+}
+/* Youtude Videos styling */
+.Youtude_Videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.Youtude_Videos iframe {
+  width: 300px;
+  height: 170px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.Youtude_Videos iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+/*--- The images ---*/
+.Bigpics-scroll {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+  gap: 5px;
+  max-width: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  scrollbar-width: none;
+  align-items: center;
+}
+.Bigpics-scroll img {
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  object-fit: cover;
+}
+.Bigpics-scroll img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+  color: #dcd284;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 40px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.Title_and_Description {
+  background-attachment: fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.Character_Tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Character_Tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Adjust based on need */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.Character_Tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
